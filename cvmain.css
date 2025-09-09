@@ -1,10 +1,99 @@
-html{
-  background-color: aliceblue;
-  text-align: left;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
 
-  
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  color: #222;
+  text-align: left;
+  margin-bottom: 10px;
+}
 
+h2 {
+  font-size: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 15px;
+}
+
+/* Paragraphs */
+p {
+  text-align: justify;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+/* Links */
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal Line */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 25px 0;
+}
+
+/* Contact Info */
+p:first-of-type,
+p:nth-of-type(2),
+p:nth-of-type(3),
+p:nth-of-type(4) {
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Skills & Experience Formatting */
+p br {
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
 }
